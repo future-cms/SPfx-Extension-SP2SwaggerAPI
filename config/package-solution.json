@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp2swagger-api-client-side-solution",
+    "id": "14e14668-9827-4bac-a335-768f18403d73",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "f441a294-75fc-4c13-9c3b-46576a500644",
+        "version": "1.0.0.5",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp2swagger-api.sppkg"
+  }
+}
