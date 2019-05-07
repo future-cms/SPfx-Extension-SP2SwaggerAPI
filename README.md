@@ -1,6 +1,6 @@
 ## SP2SwaggerAPI
 
-This is a SPfx Extension for sendging Modern page structure to a Swagger API server.
+This is a SPfx Extension for sending Modern page structure to a Swagger API server.
 
 ### Motivation
 MS Flow has a problem extracting Modern Pages to send API, it break some of html structure expected by API.
